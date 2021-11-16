@@ -1,0 +1,60 @@
+<style type="text/css">
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    
+    background: #2ec194;
+    margin: 0;
+    height: 792px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#loader-container{
+    
+    
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 0%;
+    overflow: hidden;
+   
+    
+}
+
+.loader-div{
+    width: calc(100% - 16px);
+    height: calc(100% - 16px);
+    border: 8px solid #40d1a5;
+    border-radius: 50%;
+    border-top: 8px solid #bbefdf;
+    animation: rotate 5s linear infinite;
+
+}
+
+@keyframes rotate{
+    
+    100%{transform: rotate(360deg);}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  </style>
